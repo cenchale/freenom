@@ -19,7 +19,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: 00 16 * * 2
+    - cron: 12 18 * * 0
 jobs:
   run-it:
     runs-on: ubuntu-latest
