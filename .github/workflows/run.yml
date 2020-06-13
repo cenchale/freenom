@@ -20,6 +20,8 @@ on:
       - master
   schedule:
     - cron: 00 16 * * 3
+  schedule:
+    - cron: 00 16 * * 5
 jobs:
   run-it:
     runs-on: ubuntu-latest
